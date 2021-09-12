@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/icon-font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/2.png" />
+
+    <!--scroll down animation icin kullandik buni-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Erol Ramacik</title>
+
+    <!-- Yeni cod scripti-->
+    <script src="form.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- COllapse Script-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#toggle").toggle();
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">About Me</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Skills</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#projects" class="navigation__link">Projects</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Contact Me</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Message Me</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/2.png" alt="Logo" class="header__logo" />
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Welcome</span>
+
+          <span class="heading-primary--sub">
+            Your Life Does Not Get Better By Chance, It Gets Better By Change
+          </span>
+        </h1>
+        <a
+          href="#projects"
+          class="btn btn--white btn--animated"
+          class="nav-link js-scroll-trigger active"
+          >Discover Our Projects</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            About Me
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3
+              class="heading-tertiary u-margin-bottom-small"
+              data-aos="fade-up"
+            >
+              You are going to fall in love with coding
+            </h3>
+            <p class="paragraph" data-aos="fade-up">
+              Hello, my name is <b>Erol Ramacik</b>. I was born in
+              <b>Pristina Kosovo</b> in <b>1991</b>, and there I studied until
+              high school. During that time I participated in multiple
+              <b> math </b> contests and have achieved <b> third </b> as well as
+              <b> first </b> twice. After finishing my high school diploma I
+              sought out further education and studied
+              <b>Computer Engineering</b> at the <b>Ege University</b> in
+              <b> Izmir Turkey</b>. While in university I participated in a
+              contest with a few of my classmates and scored <b>second</b> place
+              with a project called the <b>Fatigue Detection System</b> (See:
+              <b>Projects Section</b>).
+            </p>
+            <span id="dots-2"></span>
+            <div id="more-2" data-aos="fade-up">
+              <h3
+                class="heading-tertiary u-margin-bottom-small"
+                data-aos="fade-up"
+              >
+                Live in coding like you never have before
+              </h3>
+
+              <p class="paragraph" data-aos="fade-up">
+                Throughout my career I have worked as a <b>translator</b>,
+                <b>guide</b>, <b>supervisor</b>, as well as a
+                <b>vice president of marketing</b>. Throughout my life I
+                realised that it isn’t about the fun and games, instead life is
+                about the lessons learned and the contributions made to the
+                world. Alongside that mentality, I have tried to learn many
+                different things, not only in the fields that I am passionate
+                about, but also in the fields that I have been biased against. I
+                am constantly looking to better myself and to learn more. I have
+                come to the conclusion that through the process of learning even
+                the hardest things, I will get soon used to it and will thank
+                myself in the future. It is not important to be all knowing and
+                interested in everything, but instead to try a hand in
+                everything. Through this amazing experience called life it has
+                been summarized with one great quote. As the mathematician and
+                physicist <b>Albert Einstein</b> said
+                <b
+                  >“A person who never made a mistake, never tried anything
+                  new”</b
+                >
+                and so<b> here I am</b>.
+              </p>
+            </div>
+            <!--biz burda learn more butonuni ayarladik hem ok icin &rarr; kullandik-->
+            <a
+              href="#section-about"
+              class="btn-text"
+              data-aos="fade-up"
+              onclick="myFunction2()"
+              id="myBtn-2"
+              >Learn More</a
+            >
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition" data-aos="fade-up">
+              <img
+                src="img/erol1.jpg"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+              />
+              <img
+                src="img/erol2.jpg"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+              />
+              <img
+                src="img/erol3.jpg"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SKILLS-->
+      <section class="section-features">
+        <div class="row">
+          <div class="col-1-of-4" data-aos="fade-up">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-book-pen"></i>
+
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Education
+              </h3>
+
+              <ul style="list-style-type: none;">
+                <li>
+                  <a
+                    href="https://bilmuh.ege.edu.tr/"
+                    target="_blank"
+                    class="anchor"
+                  >
+                    <img
+                      src="img/ege.png"
+                      alt="Ege University"
+                      width="30"
+                      height="30"
+                    />
+                    Ege University Computer Engineering
+                  </a>
+                </li>
+                <li><br /></li>
+                <li>
+                  <a
+                    href="https://en.wikipedia.org/wiki/Sami_Frash%C3%ABri_High_School"
+                    target="_blank"
+                    class="anchor"
+                  >
+                    <img
+                      src="img/sami.png"
+                      alt="Sami Frasheri"
+                      width="34"
+                      height="34"
+                    />
+                    Sami Frasheri High School
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-1-of-4" data-aos="fade-down">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-laptop"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Skills
+              </h3>
+
+              <ul style="list-style-type: none;">
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/c.png"
+                      alt="C Programing Language"
+                      width="30"
+                      height="25"
+                    />
+                    C
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/c++.png"
+                      alt="C++ Programing Language"
+                      width="25"
+                      height="25"
+                    />
+                    C++
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/csharp.png"
+                      alt="C++ Programing Language"
+                      width="25"
+                      height="25"
+                    />
+                    C#
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/sqlm.png"
+                      alt="Structured Query Language"
+                      width="25"
+                      height="25"
+                    />
+                    SQL
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/python.png"
+                      alt="Python P. Language"
+                      width="25"
+                      height="25"
+                    />
+                    Python
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/php.png"
+                      alt="Php P. Language"
+                      width="25"
+                      height="25"
+                    />
+                    PHP
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img src="img/html.png" alt="HTML" width="25" height="25" />
+                    HTML
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img src="img/css.png" alt="CSS" width="25" height="25" />
+                    CSS
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img src="img/sass.png" alt="SASS" width="25" height="25" />
+                    SASS
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/js.png"
+                      alt="Javascript"
+                      width="25"
+                      height="25"
+                    />
+                    JS
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-1-of-4" data-aos="fade-up">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-world"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Languages
+              </h3>
+
+              <ul style="list-style-type: none;">
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/eng.png"
+                      alt="English"
+                      width="25"
+                      height="25"
+                    />
+                    English
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/tr.png"
+                      alt="Turkish"
+                      width="25"
+                      height="25"
+                    />
+                    Turkish
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/alb.png"
+                      alt="Albanian"
+                      width="25"
+                      height="25"
+                    />
+                    Albanian
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/bih.png"
+                      alt="Bosnian"
+                      width="25"
+                      height="25"
+                    />
+                    Bosnian
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/srb.png"
+                      alt="Serbian"
+                      width="25"
+                      height="25"
+                    />
+                    Serbian
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-1-of-4" data-aos="fade-down">
+            <div class="feature-box">
+              <i class="feature-box__icon icon-basic-joypad"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">Hobbies</h3>
+
+              <ul style="list-style-type: none;">
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/gaming.png"
+                      alt="Gaming"
+                      width="25"
+                      height="25"
+                    />
+                    Gaming
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/chess.png"
+                      alt="Chess"
+                      width="25"
+                      height="25"
+                    />
+                    Chess
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/basketball.png"
+                      alt="Basketball"
+                      width="25"
+                      height="25"
+                    />
+                    Basketball
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/swim.png"
+                      alt="Swimming"
+                      width="25"
+                      height="25"
+                    />
+                    Swimming
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bilmuh.ege.edu.tr/" class="anchor">
+                    <img
+                      src="img/football.png"
+                      alt="Football"
+                      width="25"
+                      height="25"
+                    />
+                    Football
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--PROJECTS-->
+      <section class="section-projects" id="section-projects">
+        <div class="u-center-text u-margin-bottom-big" id="projects">
+          <h2 class="heading-secondary">
+            Projects
+          </h2>
+        </div>
+        <!--Card 1-->
+        <div class="row">
+          <div class="col-1-of-4" data-aos="zoom-in-down">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1">
+                    Fatigue Detection System
+                  </span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Thesis Project</li>
+                    <li>OpenCV, KLT, Haar Classifier, LBPH, C++, C#</li>
+                    <li>+3 Teammates</li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__detail-box">
+                    <p class="card__name">
+                      Fatigue Detection System
+                    </p>
+                  </div>
+                  <a href="#popup1" class="btn btn--white">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Card 2-->
+          <div class="col-1-of-4" data-aos="zoom-in-down">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2">
+                    Rang A Rang Game
+                  </span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Game Project</li>
+                    <li>Unity Game Engine, C++</li>
+                    <li>+1 Teammates</li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__detail-box">
+                    <p class="card__name">Rang a Rang Game</p>
+                  </div>
+                  <a href="#popup2" class="btn btn--white">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Card 3-->
+          <div class="col-1-of-4" data-aos="zoom-in-down">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3">
+                    AI BOT System
+                  </span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Chat Project</li>
+                    <li>Java</li>
+                    <li>+1 Teammates</li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__detail-box">
+                    <p class="card__name">AI BOT System</p>
+                  </div>
+                  <a href="#popu3" class="btn btn--white">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Card 4-->
+          <div class="col-1-of-4" data-aos="zoom-in-down">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--4">
+                  &nbsp;
+                </div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--4">
+                    Embedded measuring Project
+                  </span>
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Measuring Project</li>
+                    <li>
+                      C++, Arduino, (Hum. and Temp.)device, Bluetooth,
+                      Android(Phone)
+                    </li>
+                    <li>No Teammates</li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-4">
+                <div class="card__cta">
+                  <div class="card__detail-box">
+                    <p class="card__name">Embedded measuring Project</p>
+                  </div>
+                  <a href="#" class="btn btn--white">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- btn btn--red -->
+
+        <span id="dots"></span>
+        <div id="more">
+          <div class="row">
+            <div class="col-1-of-4" data-aos="zoom-in-down">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--5">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span class="card__heading-span card__heading-span--1">
+                      Database MySql Project
+                    </span>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>Database MySql Project</li>
+                      <li>SQL</li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                    <div class="card__detail-box">
+                      <p class="card__name">
+                        Database MySql Project
+                      </p>
+                    </div>
+                    <a href="#popup" class="btn btn--white">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Card 2-->
+            <div class="col-1-of-4" data-aos="zoom-in-down">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--6">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span class="card__heading-span card__heading-span--2">
+                      Customer Placement Project
+                    </span>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>Tez Project</li>
+                      <li>4 Project Mates</li>
+                      <li>1 Professor</li>
+                      <li>OpenCV</li>
+                      <li>C++, C#</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                    <div class="card__detail-box">
+                      <p class="card__name">Customer Placement Project</p>
+                    </div>
+                    <a href="#popup" class="btn btn--white">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Card 3-->
+            <div class="col-1-of-4" data-aos="zoom-in-down">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--7">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span class="card__heading-span card__heading-span--3">
+                      Football League System
+                    </span>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>Tez Project</li>
+                      <li>4 Project Mates</li>
+                      <li>1 Professor</li>
+                      <li>OpenCV</li>
+                      <li>C++, C#</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                    <div class="card__detail-box">
+                      <p class="card__name">Football League System</p>
+                    </div>
+                    <a href="#" class="btn btn--white">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Card 4-->
+            <div class="col-1-of-4" data-aos="zoom-in-down">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--8">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span class="card__heading-span card__heading-span--4">
+                      Vehicle Sales System
+                    </span>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>Tez Project</li>
+                      <li>4 Project Mates</li>
+                      <li>1 Professor</li>
+                      <li>OpenCV</li>
+                      <li>C++, C#</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-4">
+                  <div class="card__cta">
+                    <div class="card__detail-box">
+                      <p class="card__name">Vehicle Sales System</p>
+                    </div>
+                    <a href="#" class="btn btn--white">View Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text">
+          <button class="btn btn--red" onclick="myFunction()" id="myBtn">
+            Show All Projects
+          </button>
+        </div>
+      </section>
+      <!--
+      <section class="section-contact">
+        <div class="bg-contact"></div>
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary-black">
+            Work Experience
+          </h2>
+        </div>
+        <div class="row">
+          <div class="contact">
+            <figure class="contact__shape">
+              <img src="img/kosova0.jpg" alt="iletisim" class="contact__img" />
+              <figcaption class="contact__caption">Prishtina</figcaption>
+            </figure>
+            <div class="contact__text">
+              <h3 class="heading-tertiary u-margin-bottom-small" align="center">
+                Fibula Air Travel
+              </h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Provident, libero! Reprehenderit voluptates at mollitia
+                consectetur a quis quia vel, fugiat perspiciatis? Optio tenetur
+                error sunt quo. Iusto saepe quod excepturi?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact">
+            <figure class="contact__shape">
+              <img src="img/kosova0.jpg" alt="iletisim" class="contact__img" />
+              <figcaption class="contact__caption">Prishtina</figcaption>
+            </figure>
+            <div class="contact__text">
+              <h3 class="heading-tertiary u-margin-bottom-small" align="center">
+                Altinordu
+              </h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Provident, libero! Reprehenderit voluptates at mollitia
+                consectetur a quis quia vel, fugiat perspiciatis? Optio tenetur
+                error sunt quo. Iusto saepe quod excepturi?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact">
+            <figure class="contact__shape">
+              <img src="img/kosova0.jpg" alt="iletisim" class="contact__img" />
+              <figcaption class="contact__caption">Prishtina</figcaption>
+            </figure>
+            <div class="contact__text">
+              <h3 class="heading-tertiary u-margin-bottom-small" align="center">
+                Atlantik Group
+              </h3>
+              <p>
+                Atlantik Group is one of the leading companies for sales and
+                distibution of high-quality products with a wide range of brands
+                in Kosovo. Balkan progres center da mudur asistanligi, ardindan
+                atlantik group bunyesinde auditor olarak calistim
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>-->
+
+      <section class="section-email">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/night.mp4" type="video/mp4" />
+            <source src="img/night.webm" type="video/webm" />
+            Your browser is not supported!
+          </video>
+        </div>
+        <div class="row">
+          <div class="email">
+            <div class="email__form">
+              <form
+                class="form"
+                id="form__group"
+                action="contact.php"
+                method="POST"
+              >
+                <div class="u-margin-bottom-small">
+                  <h2 class="heading-secondary">
+                    Write Me
+                  </h2>
+                </div>
+
+                <input
+                  name="name"
+                  id="name"
+                  class="form__input"
+                  placeholder="Full Name"
+                  required
+                />
+                <label for="name" class="form__label">Full Name</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form__input"
+                  placeholder="Email"
+                  required
+                />
+                <label for="email" class="form__label">Email</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="4"
+                  class="form__input"
+                  placeholder="Message"
+                  required
+                ></textarea>
+
+                <label for="message" class="form__label">Message</label>
+                <button class="btn btn--red" name="send">
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section-email">
+        <div class="row">
+          <div class="email">
+            <div class="email__form">
+              <form  class="form" id="form__group" method="POST" action="contact.php">
+                <div     class = "u-margin-bottom-small">
+                  <h2      class = "heading-secondary">
+                    Write Me
+                  </h2>
+                </div> 
+                
+                
+                  <div class="form__group" >
+                  
+                  
+                          <input name="name" id="name"  class="form__input" placeholder="Full Name" required></input>
+                          <label for="name" class="form__label">Full Name</label>
+                          <input type="email" name="email" id="email"  class="form__input" placeholder="Email" required></input>
+                          <label for="email" class="form__label">Email</label>
+                          <textarea name="message" id="message" rows="4" class="form__message" placeholder="Message" required></textarea>
+                          <label for="message" class="form__label">Message</label>
+                        
+                  </div>
+                      
+                    <div class="form__send">
+                      <button class="btn btn--red" name="send" onclick="on()">Send</button>
+                    </div>
+                    <div id="overlay" onclick="off()">
+                      <div id="text">Your Message has been sent !</div>
+                    </div>
+              </form>
+            </div>
+          </div>
+        </div> 
+        
+      </section>  -->
+    </main>
+
+    <footer class="footer">
+      <!--   
+        <form method="post" action="#">
+        <div class="field half first">
+        <input type="text" name="name" id="name" placeholder="Name" />
+        </div>
+        <div class="field half">
+        <input type="text" name="email" id="email" placeholder="Email" />
+        </div>
+        <div class="field">
+        <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+        </div>
+        <ul class="actions">
+        <li><input type="submit" value="Send" class="special" /></li>
+        <li><input type="reset" value="Reset" /></li>
+        </ul>
+        </form>
+      -->
+
+      <div class="footer__logo-box">
+        <img src="img/2.png" alt="Full Logo" class="footer__logo" />
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a
+                  href="https://www.linkedin.com/in/eroll-ramaxhik-20b668145/"
+                  target="_blank"
+                  class="footer__link"
+                  ><img
+                    src="img/linkedin.png"
+                    alt="Logo"
+                    width="45"
+                    height="45"
+                /></a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="https://www.instagram.com/e.ramacio/"
+                  target="_blank"
+                  class="footer__link"
+                  ><img
+                    src="img/insagram.png"
+                    alt="Logo"
+                    width="45"
+                    height="45"
+                /></a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="https://www.facebook.com/erol.ramacik"
+                  target="_blank"
+                  class="footer__link"
+                  ><img
+                    src="img/facebook.png"
+                    alt="Logo"
+                    width="45"
+                    height="45"
+                /></a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="https://wa.me/38349133736"
+                  target="_blank"
+                  class="footer__link"
+                  ><img src="img/watsapp.png" alt="Logo" width="45" height="45"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <div class="footer__information">
+            <address>
+              Email :
+              <a
+                href="mailto:erolramacik@gmail.com"
+                class="footer__link"
+                style="color: rgb(165, 162, 162);"
+                >erolramacik@gmail.com</a
+              >.<br />
+              Phone : ******36<br />
+              Address : Ulpiana U-2, No:16, Prishtina <br />
+              KOSOVO<br />
+            </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- POPUP Section-->
+    <!--Popup 1-->
+    <div class="popup" id="popup1">
+      <div class="popup__content">
+        <div class="popup__left popup__left-1">
+          <img src="img/fatigue-b-1.jpg" alt="Proje Photo" class="popup__img" />
+          <img src="img/fatigue-b-2.jpg" alt="Proje Photo" class="popup__img" />
+          <!--  
+          <img src="img/fatigue-b-1.jpg" alt="Proje Photo" class="popup__img" />
+          <img src="img/fatigue-b-2.jpg" alt="Proje Photo" class="popup__img" />-->
+        </div>
+        <div class="popup__right">
+          <a href="#section-projects" class="popup__close">&times</a>
+          <h2 class="heading-secondary" u-margin-bottom-small>Download</h2>
+          <h3 class="heading-tertiary" u-margin-bottom-small>
+            Fatigue Detection System
+          </h3>
+          <p class="popup__text">
+            This is the System (Program) that detects Fatigue status of drivers
+            and gives a warning before sleep. We aimed to prevent vital damage
+            or accidents by alerting drivers or taking over the driver's
+            control. The performance of the camera connected to the system is at
+            a lower cost compared to the devices and systems in the literature.
+            It was tested on people working in the development of the system in
+            a laboratory environment at different light levels.
+          </p>
+          <a href="Ardu Ino Gomulu Sistemler.rar" class="btn btn--red" download
+            >Download Now</a
+          >
+        </div>
+      </div>
+    </div>
+    <!--Popup 2-->
+    <div class="popup" id="popup2">
+      <div class="popup__content">
+        <div class="popup__left popup__left-2">
+          <img src="img/rang-b-1.jpg" alt="Proje Photo" class="popup__img" />
+          <img src="img/rang-b-2.jpg" alt="Proje Photo" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-projects" class="popup__close">&times</a>
+          <h2 class="heading-secondary" u-margin-bottom-small>Download</h2>
+          <h3 class="heading-tertiary" u-margin-bottom-small>
+            Fatigue Detection System &ndash; Please read this terms beforee
+            downloading
+          </h3>
+          <p class="popup__text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+            porro dolore velit libero eveniet. Ut voluptatem aut incidunt totam,
+            tempora ipsum illo perspiciatis error tenetur. Sequi itaque dolorum
+            magnam similique. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Tempore eos, magnam ducimus itaque eum blanditiis
+            beatae, amet assumenda
+            officiis,erersdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf. I ajskdjkahshjd
+          </p>
+          <a href="Ardu Ino Gomulu Sistemler.rar" class="btn btn--red" download
+            >Download Now</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Message has been sent overlay-->
+    <script>
+      function on() {
+        document.getElementById("overlay").style.display = "block";
+      }
+
+      function off() {
+        document.getElementById("overlay").style.display = "none";
+      }
+    </script>
+
+    <!-- toggle scroll script-->
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Show All Projects";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Show Less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+
+    <script>
+      function myFunction2() {
+        var dots = document.getElementById("dots-2");
+        var moreText = document.getElementById("more-2");
+        var btnText = document.getElementById("myBtn-2");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Learn More &rArr;";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Show Less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+
+    <!--scroll down animation icin kullandik buni-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 125,
+        duration: 1000,
+        mirror: false,
+        once: true,
+      });
+    </script>
+
+    <!-- navigation bar icin bi JS yazdik se sass ile olmadi -->
+    <script>
+      let links = document.querySelectorAll(".navigation__link");
+
+      links.forEach((link) => {
+        link.addEventListener("click", () => {
+          document.querySelector(".navigation__checkbox").checked = false;
+        });
+      });
+    </script>
+  </body>
+</html>
